@@ -1,0 +1,7 @@
+distancia=int(input('Qual a distancia percorrida em KM: '))
+preço_passagem=distancia *0.50
+preço_passagem_longa=distancia *0.45
+if(distancia <= 200):
+    print('A passagem é de R${}'.format(preço_passagem))
+elif(distancia >200):
+    print('A passagem é de R${} '.format(preço_passagem_longa))
